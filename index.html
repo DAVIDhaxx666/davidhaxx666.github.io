@@ -6,10 +6,15 @@
     html, body {
       height: 100%; /* Ensure the gradient covers the whole page */
       margin: 0; /* Remove default margins */
+      padding: 0; /* Remove default padding */
       background-color: blue; /* For browsers that do not support gradients */
       background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
     }
     body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       color: white;
     }
   </style>
@@ -20,9 +25,9 @@
   <p>Here are some links to my webpages hosted on GitHub:</p>
   <nav>
     <ul>
-      <li><a style="color:white" href="/7Mode/">7Mode</a></li>
-      <li><a style="color:white" href="/gomgle/">Gomgle (broken)</a></li>
-      <li><a style="color:white" href="/7xorg-games-htmlver/">7xorg games</a></li>
+      <li><a href="/7Mode/">7Mode</a></li>
+      <li><a href="/gomgle/">Gomgle (broken)</a></li>
+      <li><a href="/7xorg-games-htmlver/">7xorg games</a></li>
     </ul>
   </nav>
   <p>Yeah, these are the only pages that are hosted on GitHub...</p>
